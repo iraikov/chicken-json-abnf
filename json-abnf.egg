@@ -1,0 +1,12 @@
+;; -*- Hen -*-
+
+(
+ (license "GPL-3")
+ (category parsing)
+ (dependencies abnf utf8 srfi-1)
+ (test-dependencies test)
+ (author "Ivan Raikov")
+ (synopsis "Parser combinators for JavaScript Object Notation (JSON).")
+ (components (extension json-abnf))
+ )
+
